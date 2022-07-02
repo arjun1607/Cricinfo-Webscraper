@@ -7,25 +7,6 @@ let xlsx = require("xlsx");
 // let data = JSON.parse(buffer);
 let data = require("./example.json");
 
-// console.log(data);
-// data.push({
-//     "name": "Thor",
-//     "last Name": "Rogers",
-//     "isAvenger": true,
-//     "friends": [
-//         "Bruce",
-//         "Neter",
-//         "Natasha"
-//     ],
-//     "age": 45,
-//     "address": {
-//         "city": "New York",
-//         "state": "manhatten"
-//     }
-// });
-// let stringData = JSON.stringify(data);
-// fs.writeFileSync("example.json", stringData);
-
 // // wb-> filePath, ws -> name, json data 
 // // new worksheet 
 function excelWriter(filePath, json, sheetName) {
